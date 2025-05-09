@@ -1,4 +1,5 @@
 # Experiment 1: Entity-Relationship (ER) Diagram
+## REG NO 212222060173
 
 ## 🎯 Objective:
 To understand and apply the concepts of ER modeling by creating an ER diagram for a real-world application.
@@ -45,28 +46,56 @@ Design a database for patient management, appointments, medical records, and bil
    - Why you chose the entities and relationships.
    - How you modeled prerequisites or billing.
 
-# ER Diagram Submission - Student Name
+# ER Diagram Submission - Pavithra K
 
 ## Scenario Chosen:
 University / Hospital (choose one)
 
 ## ER Diagram:
-![ER Diagram](er_diagram.png)
+![Screenshot (1)](https://github.com/user-attachments/assets/e9316f3a-ecfb-40c1-bc93-5694513f75e8)
 
 ## Entities and Attributes:
-- Entity1: Attributes
-- Entity2: Attributes
-...
+Student: Reg no, Student name, Department
+Faculty: Faculty Id, Faculty name, Dept
+Course: Course code, Course name, Department
+ERP: Faculty name, Course details, Slots
+Login: Login user, User_id, Password
 
 ## Relationships and Constraints:
-- Relationship1 (Cardinality, Participation)
-- Relationship2 (Cardinality, Participation)
-...
+### Enroll (between Student and Course)
+Cardinality: Many-to-Many
+Participation: Partial
+Description: Students can enroll in multiple courses, and each course can have multiple students.
+
+### Teaches (between Faculty and Student)
+Cardinality: Many-to-Many
+Participation: Partial
+Description: A faculty member may teach multiple students; a student may be taught by multiple faculty.
+
+### Assign (between Course and ERP)
+Cardinality: One-to-One or One-to-Many
+Participation: Total (for Course)
+Description: Every course is assigned in ERP with specific faculty and slot info.
+
+### Has (between Login and ERP)
+Cardinality: One-to-One
+Participation: Total
+Description: A login account is required to access the ERP system.
 
 ## Extension (Prerequisite / Billing):
-- Explain how you modeled prerequisites or billing.
+This ER model does not explicitly include prerequisite or billing information.
+To model prerequisites:
+Add a recursive relationship Prerequisite on the Course entity (e.g., Course —has prerequisite→ Course).
+To model billing:
+Create a new entity Billing with attributes like Amount, PaymentStatus, and link it to Student and Course via a relationship like PaysFor.
 
 ## Design Choices:
-Brief explanation of why you chose certain entities, relationships, and assumptions
+Separation of concerns: Distinct entities for students, faculty, courses, and logins improve clarity and manageability.
+ERP as central node: Reflects real-world university systems that unify multiple academic records.
+Security: Login entity ensures authentication for accessing ERP.
+Flexibility: Many-to-many relationships enable realistic modeling of enrollments and teaching assignments.
 
 ## RESULT
+The concepts of Entity-Relationship (ER) modeling were understood and successfully applied by creating an ER diagram for a real-world application. The diagram effectively represents entities such as Student, Faculty, Course, ERP, and Login, along with their attributes and relationships. This ER model demonstrates the structure and interactions within an academic ERP system.
+
+
