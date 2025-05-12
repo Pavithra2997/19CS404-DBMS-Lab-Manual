@@ -105,27 +105,36 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
--- Paste Question 1 here
+![Screenshot (5)](https://github.com/user-attachments/assets/457ea231-2b4e-428c-a03d-22934b06dbe1)
+
 
 ```sql
--- Paste your SQL code below for Question 1
+CREATE TABLE Locations(
+LocationID INTEGER,
+LocationName TEXT ,
+Address TEXT
+)
 ```
 
 **Output:**
 
-![Output1](output.png)
+![Screenshot (6)](https://github.com/user-attachments/assets/2cc721e5-5d21-4cff-bed5-ca849ef413f1)
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+![Screenshot (7)](https://github.com/user-attachments/assets/747762e5-ce18-4baa-9cb0-89a2f61a372f)
+
 
 ```sql
--- Paste your SQL code below for Question 2
+INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)
+VALUES('001','Sarah Parker','Manager','HR',60000)
 ```
 
 **Output:**
 
-![Output2](output.png)
+![Screenshot (8)](https://github.com/user-attachments/assets/0145bda6-0870-4d36-9c47-a7bcffe98a10)
+
 
 **Question 3**
 ---
