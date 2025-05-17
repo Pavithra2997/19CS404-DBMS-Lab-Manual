@@ -210,6 +210,8 @@ WHERE o.purch_amt<100;
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/09afbbdd-4bbe-4306-98cc-aba32ca9e4d6)
 
+## SEB GRADE
+![Screenshot (113)](https://github.com/user-attachments/assets/3f4a6c15-3f14-4802-8053-961e56488a38)
 
 
 ## RESULT
