@@ -196,6 +196,8 @@ HAVING TotalRecords>3;
 
 ![Screenshot (65)](https://github.com/user-attachments/assets/e11877ed-7446-4d2b-977f-c3c2759b481a)
 
+## SEB GRADE
+![3](https://github.com/user-attachments/assets/8107a10c-2d3c-4b11-854a-bebe6317dc0f)
 
 
 ## RESULT
