@@ -193,6 +193,9 @@ WHERE commission BETWEEN 0.12 AND 0.14;
 **Output:**
 
 ![Screenshot (45)](https://github.com/user-attachments/assets/e835c194-1065-40b1-a065-3b24a1c6d552)
+## SEB GRADE
+![Screenshot (112)](https://github.com/user-attachments/assets/157c272e-c229-4396-8720-c3c01349a126)
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
