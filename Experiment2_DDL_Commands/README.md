@@ -285,6 +285,8 @@ EventDate DATE
 
 ![Screenshot (24)](https://github.com/user-attachments/assets/be484bf8-4e90-459b-a310-dd07ca51b55c)
 
+## SEB GRADE
+![1](https://github.com/user-attachments/assets/5ff6b0d0-5db7-4357-960e-1ee3cdf50b43)
 
 
 ## RESULT
