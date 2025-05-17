@@ -211,6 +211,8 @@ WHERE name = 'Mc Lyon')
 
 ![Screenshot (86)](https://github.com/user-attachments/assets/df2e634f-8e73-49f5-bb19-75ac57790474)
 
+## SEB GRADE
+![Screenshot (113)](https://github.com/user-attachments/assets/4e661671-ba99-4327-be5d-ee306b24124e)
 
 
 ## RESULT
